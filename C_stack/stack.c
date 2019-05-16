@@ -379,38 +379,4 @@ Stack* makeStackGnS(int cap, float growF, float shrinkF){
 	return stackGS;
 }
 
-
-/*int main(void) {
-	
-	Stack* stack = makeStackG(4, 0.5);
-	push(stack, 939526, "hello world!");
-	push(stack, 682340, "I'm about to cry!!");
-	push(stack, 189262, "I have stomachache");
-	//pushUnique(stack, 189262, "I have stomachache");
-	pushUnique(stack, 281734, "Unique push!!");
-	push(stack, 798743, "This is growable!"); //successfully grown!
-	Element** popped = multiPop(stack, 2);
-	//Element* top = peek(stack);
-	// reverse succeessfully worked!
-	//reverse(stack);
-	
-	for (int i = 0; i < currentSize(stack); i++) {
-		printf("k is: %i  v is: %s\n", stack->elements[i]->key, stack->elements[i]->value);
-	}
-
-	//clear properly worked!
-	//clear(stack);
-
-	printf("Current capacity is: %i\n", getCapacity(stack));
-	printf("Current size is    : %i\n", currentSize(stack));
-	printf("Is it empty?       : %i\n", isEmpty(stack));
-	printf("Is it full?        : %i\n", isFull(stack));
-	//printf("Value of the top   : %s\n", top->value);
-	//printf("Key of the top     : %i\n", top->key);
-	printf("Popped key         : %i\n", popped[1]->key);
-	printf("Popped value       : %s\n", popped[1]->value);
-	printf("Searching...       : %i\n", search(stack, 939526, "hello world!"));
-	
-	return 0;
-
-}*/
+// end of the file
