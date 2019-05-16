@@ -2,7 +2,7 @@
 #define STACK_H
 #include <stdbool.h>
 
-// Please do not change anything in header file //
+
 // struct definition for each element in stack
 struct Element {
   int key;
