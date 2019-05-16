@@ -1,10 +1,7 @@
-# CSE12
-Repository for CSE 12 projects
+# Stack with C
+### Tomoya Tokunaga (mailto: ttokunag@ucsd.edu)
 
-# Programming Assignment 6
-This file is for a programming assignment 6, which is about Stack implementation with C language.
-## Author
-Tomoya Tokunaga (A15704164, mailto: ttokunag@ucsd.edu)
+This repository contains C files which implements the Stack data structure. 
 
 ## Acknowledgement
 * zyBooks(CSE 12: Basic Data Structures and Object-Oriented Design), Ch13(C: Pointers)
