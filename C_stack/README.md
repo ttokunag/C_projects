@@ -2,6 +2,8 @@
 ### Tomoya Tokunaga (mailto: ttokunag@ucsd.edu)
 
 This repository contains C files which implements the Stack data structure. 
+Stack data structure is a unique structure built on an array which remove a most recently entered element first. This
+structure is often called LIFO(Last In First Out) structure. 
 
 ## Acknowledgement
 * zyBooks(CSE 12: Basic Data Structures and Object-Oriented Design), Ch13(C: Pointers)
